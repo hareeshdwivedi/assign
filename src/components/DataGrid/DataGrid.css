@@ -1,0 +1,33 @@
+/* 
+.datagrid-container{
+    display: flex;
+    gap: 193px;
+} */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.select-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* .table th {
+  background-color: #f9f9f9;
+} */
